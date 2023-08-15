@@ -1,12 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
+//Es un agrupador de clases
 namespace Primeras_clases
 {
-    class DispositivoMovil
+    public class DispositivoMovil
     {
+        public int ram;
+        public int almacenamiento;
+        public float tamaño;
+        public int resoluAncho;
+        public int resoluAlto;
+        public Color color;
+
     }
 }
