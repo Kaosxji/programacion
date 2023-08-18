@@ -19,9 +19,9 @@ namespace Carrera_de_Coches
             {
                 Console.WriteLine("Gano" + auto2.modelo);
             }
-            if(auto2.velocidad>auto1.velocidad)
+            if(auto2.velocidad > auto1.velocidad)
             {
-                Console.WriteLine("Gano")
+                Console.WriteLine("Gano" + auto1.modelo);
             }
             else
             {
