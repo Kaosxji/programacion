@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1E5098FC-DAF3-4155-8B7A-7BFE720DE8CB}</ProjectGuid>
+    <ProjectGuid>{A0C02D67-3C18-418F-B654-62AD99F90E65}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tarea_Canciones</RootNamespace>
-    <AssemblyName>Tarea Canciones</AssemblyName>
+    <RootNamespace>Smartphone</RootNamespace>
+    <AssemblyName>Smartphone</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\OneDrive\Fotos\Documentos\GitHub\programacion\Tarea Canciones.cs" />
-    <Compile Include="Album.cs" />
-    <Compile Include="Artista.cs" />
-    <Compile Include="Cancion.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="smartphone.cs" />
+    <Compile Include="Smartphone.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
