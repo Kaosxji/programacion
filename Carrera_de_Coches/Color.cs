@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Carrera_de_Coches
 {
-    class Color
+   public class Color
     {
+        public int Azul;
+        public int Verde;
+        public int Rojo;
     }
 }

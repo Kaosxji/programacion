@@ -10,6 +10,21 @@ namespace Carrera_de_Coches
     {
         static void Main(string[] args)
         {
+            Auto Ferrari = new Auto();
+            Ferrari.modelo = "Ferrari F1";
+            Ferrari.velocidad = 120;
+
+            Auto Mclaren = new Auto();
+            Mclaren.modelo = "MC 2443";
+            Mclaren.velocidad = 140;
+
+            PistaC Pista1 = new PistaC();
+            Pista1.nombre = "Hermanos Rodrigez";
+            Pista1.longitud = 4.303f;//Km
+            Pista1.Competir(Ferrari, Mclaren);
+            //Esta linea que presiones enter para continuar
+            Console.ReadLine();
+
         }
     }
 }

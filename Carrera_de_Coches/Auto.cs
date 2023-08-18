@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Carrera_de_Coches
 {
-    class Auto
+   public class Auto
     {
+        public string modelo;
+        public Color color;
+        public float velocidad;
     }
 }
