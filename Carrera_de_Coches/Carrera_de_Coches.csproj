@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A0C02D67-3C18-418F-B654-62AD99F90E65}</ProjectGuid>
+    <ProjectGuid>{678D2E4E-C442-4ED3-AC12-14911156B1AC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Smartphone</RootNamespace>
-    <AssemblyName>Smartphone</AssemblyName>
+    <RootNamespace>Carrera_de_Coches</RootNamespace>
+    <AssemblyName>Carrera_de_Coches</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Launch.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Smartphone.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

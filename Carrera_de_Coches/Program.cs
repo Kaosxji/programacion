@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Smartphone
+namespace Carrera_de_Coches
 {
-    public class Launch
+    class Program
     {
-        public string Announced;
-        public string Status;
-
+        static void Main(string[] args)
+        {
+        }
     }
 }
