@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Smartphone
 {
-    class Smartphone
+    public class Smartphone
     {
         public string NetTech;
         public Launch Launch;
-        public float Body;
-        public float Display;
-        public int Plataform;
-        public int Memory;
+        public Body Body;
+        public Display Display;
+        public Plataform Plataform;
+        public Memory Memory;
         public int MainCamara;
         public int SelfieCam;
         public int Sound;
