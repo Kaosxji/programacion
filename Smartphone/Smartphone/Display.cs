@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Smartphone
 {
-    class Display
+   public class Display
     {
+        public string Type;
+        public float Size;
+        public int ResolutionAncho;
+        public int ResolutionLargo;
+
     }
 }
