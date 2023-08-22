@@ -14,13 +14,13 @@ namespace Smartphone
         public Display Display;
         public Plataform Plataform;
         public Memory Memory;
-        public int MainCamara;
-        public int SelfieCam;
-        public int Sound;
-        public int Comms;
-        public int Features;
-        public int Battery;
-        public int Mic;
+        public MainCamara MainCamara;
+        public SelfieCamara SelfieCam;
+        public Sound  Sound;
+        public COMMS Comms;
+        public Features Features;
+        public Battery Battery;
+        public Misc Misc;
 
     }
 }

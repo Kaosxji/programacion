@@ -1,0 +1,2 @@
+C:\Users\RODOLFO NIETO\OneDrive\Fotos\Documentos\GitHub\programacion\Smartphone\Smartphone\obj\Debug\HuaweiY9s.csproj.AssemblyReference.cache
+C:\Users\RODOLFO NIETO\OneDrive\Fotos\Documentos\GitHub\programacion\Smartphone\Smartphone\obj\Debug\HuaweiY9s.csproj.CoreCompileInputs.cache

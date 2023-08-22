@@ -35,6 +35,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,10 +45,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Battery.cs" />
+    <Compile Include="Body.cs" />
+    <Compile Include="COMMS.cs" />
+    <Compile Include="Display.cs" />
+    <Compile Include="Features.cs" />
     <Compile Include="Launch.cs" />
+    <Compile Include="MainCamara.cs" />
+    <Compile Include="Memory.cs" />
+    <Compile Include="Misc.cs" />
+    <Compile Include="PLATFORM.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelfieCamara.cs" />
     <Compile Include="Smartphone.cs" />
+    <Compile Include="Sound.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

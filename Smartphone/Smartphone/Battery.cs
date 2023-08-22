@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Smartphone
 {
-   public class Display
+  public class Battery
     {
         public string Type;
-        public float Size;
-        public int ResolutionLargo;
-        public int ResolutionAncho;
+        public int Charging;
     }
 }

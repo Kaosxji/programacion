@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Smartphone
 {
-   public class Display
+    public class Plataform
     {
-        public string Type;
-        public float Size;
-        public int ResolutionLargo;
-        public int ResolutionAncho;
+        public string OS;
+        public string Chipset;
+        public string CPU;
+        public string GPU;
     }
 }

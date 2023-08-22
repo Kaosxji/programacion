@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Smartphone
 {
-    class Body
+    public class Body
     {
+        public float DimensionsLargo;
+        public float DimensionsAncho;
+        public int Weight;
+        public string Build;
+        public string SIM;
+
     }
 }
