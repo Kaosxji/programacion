@@ -1,0 +1,7 @@
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\Practica2\bin\Debug\Practica2.exe.config
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\Practica2\bin\Debug\Practica2.exe
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\Practica2\bin\Debug\Practica2.pdb
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\Practica2\obj\Debug\Practica2.csproj.AssemblyReference.cache
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\Practica2\obj\Debug\Practica2.csproj.CoreCompileInputs.cache
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\Practica2\obj\Debug\Practica2.exe
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\Practica2\obj\Debug\Practica2.pdb
