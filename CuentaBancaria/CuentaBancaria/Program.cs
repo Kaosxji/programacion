@@ -10,7 +10,8 @@ namespace Encapsulamiento
     {
         static void Main(string[] args)
         {
-            public int get pin 
+
+          
         }
     }
 }
