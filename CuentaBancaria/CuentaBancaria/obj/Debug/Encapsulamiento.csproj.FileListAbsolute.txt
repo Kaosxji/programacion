@@ -1,0 +1,2 @@
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\CuentaBancaria\CuentaBancaria\obj\Debug\Encapsulamiento.csproj.AssemblyReference.cache
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\CuentaBancaria\CuentaBancaria\obj\Debug\Encapsulamiento.csproj.CoreCompileInputs.cache
