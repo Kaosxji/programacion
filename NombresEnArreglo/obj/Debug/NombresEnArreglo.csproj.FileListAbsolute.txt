@@ -1,0 +1,7 @@
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\NombresEnArreglo\bin\Debug\NombresEnArreglo.exe.config
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\NombresEnArreglo\bin\Debug\NombresEnArreglo.exe
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\NombresEnArreglo\bin\Debug\NombresEnArreglo.pdb
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\NombresEnArreglo\obj\Debug\NombresEnArreglo.csproj.AssemblyReference.cache
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\NombresEnArreglo\obj\Debug\NombresEnArreglo.csproj.CoreCompileInputs.cache
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\NombresEnArreglo\obj\Debug\NombresEnArreglo.exe
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\NombresEnArreglo\obj\Debug\NombresEnArreglo.pdb

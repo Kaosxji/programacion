@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="InicialApellidocs.cs" />
+    <Compile Include="InicialApellidos.cs" />
     <Compile Include="InicialDeNombre.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
