@@ -10,9 +10,10 @@ namespace Encapsulamiento
     {
         static void Main(string[] args)
         {
-
-          
+           
         }
+
+    }
     }
 }
 
