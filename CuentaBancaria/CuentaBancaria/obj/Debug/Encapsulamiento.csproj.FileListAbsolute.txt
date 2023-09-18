@@ -1,2 +1,9 @@
 C:\Users\joshua.labastidaa\Documents\GitHub\programacion\CuentaBancaria\CuentaBancaria\obj\Debug\Encapsulamiento.csproj.AssemblyReference.cache
 C:\Users\joshua.labastidaa\Documents\GitHub\programacion\CuentaBancaria\CuentaBancaria\obj\Debug\Encapsulamiento.csproj.CoreCompileInputs.cache
+C:\Users\RODOLFO NIETO\Documents\programacion\CuentaBancaria\CuentaBancaria\obj\Debug\Encapsulamiento.csproj.AssemblyReference.cache
+C:\Users\RODOLFO NIETO\Documents\programacion\CuentaBancaria\CuentaBancaria\obj\Debug\Encapsulamiento.csproj.CoreCompileInputs.cache
+C:\Users\RODOLFO NIETO\Documents\programacion\CuentaBancaria\CuentaBancaria\bin\Debug\CuentaBancaria.exe.config
+C:\Users\RODOLFO NIETO\Documents\programacion\CuentaBancaria\CuentaBancaria\bin\Debug\CuentaBancaria.exe
+C:\Users\RODOLFO NIETO\Documents\programacion\CuentaBancaria\CuentaBancaria\bin\Debug\CuentaBancaria.pdb
+C:\Users\RODOLFO NIETO\Documents\programacion\CuentaBancaria\CuentaBancaria\obj\Debug\CuentaBancaria.exe
+C:\Users\RODOLFO NIETO\Documents\programacion\CuentaBancaria\CuentaBancaria\obj\Debug\CuentaBancaria.pdb

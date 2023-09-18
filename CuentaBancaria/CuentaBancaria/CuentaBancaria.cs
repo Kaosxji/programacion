@@ -1,62 +1,39 @@
 ﻿using System;
 
-namespace CuentaBancaria
+class CuentaBancaria
 {
-    class CuentaBancaria
+    private int pin;
+    private int saldo;
+
+    public CuentaBancaria(int v1, double v2)
     {
-        private int pin;
-        private int saldo;
+        V1 = v1;
+        V2 = v2;
+    }
 
-        public int GetPin()
-        {
-            return pin;
-        }
+    public int Pin
+    {
+        get { return pin; }
+        set { pin = value; }
+    }
 
-        public void SetPin(int nuevoPin)
+    public int Saldo
+    {
+        get
         {
-            if (PinValido(nuevoPin))
+            if (pin != 0)
             {
-                pin = nuevoPin;
+                return saldo;
             }
             else
             {
-                Console.WriteLine("El nuevo PIN no es válido.");
+                Console.WriteLine(" No se puede consultar el saldo ingrese un PIN valido porfavor ");
+                return 0; 
             }
-        }
-
-        public double GetSaldo()
-        {
-            return saldo;
-        }
-
-        public void SetSaldo(int nuevoSaldo)
-        {
-            if (nuevoSaldo >= 0)
-            {
-                saldo = nuevoSaldo;
-            }
-            else
-            {
-                Console.WriteLine("El saldo no puede ser negativo.");
-            }
-        }
-        public CuentaBancaria(int pin)
-        {
-            if (PinValido(pin))
-            {
-                this.pin = pin;
-            }
-            else
-            {
-                Console.WriteLine("El PIN inicial no es válido.");
-            }
-        }
-
-        private bool PinValido(int pin)
-        {
-            return true;
         }
     }
 
+    public int V1 { get; }
+    public double V2 { get; }
 }
 
