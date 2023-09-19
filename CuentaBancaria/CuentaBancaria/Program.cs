@@ -10,22 +10,19 @@ namespace Encapsulamiento
     {
         static void Main(string[] args)
         {
-            CuentaBancaria cuenta = new CuentaBancaria(1234, 1000.00)
-            {
+            CuentaBancaria cuenta = new CuentaBancaria();
 
-                Pin = 4321,
-                Saldo = 896,
-            };
-            cuenta.Pin = 58;
+            cuenta.Pin = 0;
             int saldoActual = cuenta.Saldo;
 
+           
             cuenta.Pin = 1234;
             saldoActual = cuenta.Saldo;
             Console.WriteLine($"Saldo actual: {saldoActual}");
 
             Console.ReadLine();
         }
+        
     }
-
 }
 

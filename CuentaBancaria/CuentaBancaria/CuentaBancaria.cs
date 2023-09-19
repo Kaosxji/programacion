@@ -5,35 +5,32 @@ class CuentaBancaria
     private int pin;
     private int saldo;
 
-    public CuentaBancaria(int v1, double v2)
+    public int getPin()
     {
-        V1 = v1;
-        V2 = v2;
+        return pin;
     }
-
-    public int Pin
+    public void setPin (int valor)
     {
-        get { return pin; }
-        set { pin = value; }
+        pin = valor;
     }
-
-    public int Saldo
+    public int getSaldo()
     {
-        get
+        if (pin != 0)
         {
-            if (pin != 0)
-            {
-                return saldo;
-            }
-            else
-            {
-                Console.WriteLine(" No se puede consultar el saldo ingrese un PIN valido porfavor ");
-                return 0; 
-            }
+            return saldo;
         }
+        else
+        {
+            Console.WriteLine(" No se puede consultar el saldo ingrese un PIN valido porfavor ");
+            return 0;
+        }
+
     }
 
-    public int V1 { get; }
-    public double V2 { get; }
+    public void setSaldo (int cifra )
+    {
+        saldo = cifra;
+      
+    }
 }
 
