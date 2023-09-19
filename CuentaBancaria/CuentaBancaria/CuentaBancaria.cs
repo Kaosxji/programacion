@@ -1,6 +1,6 @@
 ﻿using System;
 
-class CuentaBancaria
+public class CuentaBancaria
 {
     private int pin;
     private int saldo;

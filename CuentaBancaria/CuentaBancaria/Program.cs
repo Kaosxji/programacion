@@ -11,18 +11,15 @@ namespace Encapsulamiento
         static void Main(string[] args)
         {
             CuentaBancaria cuenta = new CuentaBancaria();
+            cuenta.setPin(0);
+            Console.WriteLine(" el Pin es " + cuenta.getPin());
 
-            cuenta.Pin = 0;
-            int saldoActual = cuenta.Saldo;
-
-           
-            cuenta.Pin = 1234;
-            saldoActual = cuenta.Saldo;
-            Console.WriteLine($"Saldo actual: {saldoActual}");
-
+            cuenta.setSaldo(1019);
+            Console.WriteLine(" Tu saldo actaul es " +  cuenta.getSaldo());
             Console.ReadLine();
+
         }
-        
+
     }
 }
 
