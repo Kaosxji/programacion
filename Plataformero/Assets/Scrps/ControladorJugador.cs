@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class ControladorJugador : MonoBehaviour
 {
+    public float fuerzaSalto = 3;
     public float velocidadCaminar = 5;
     private Rigidbody2D miCuerpo;
     private Animator miAnimator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,5 +41,14 @@ public class ControladorJugador : MonoBehaviour
             miCuerpo.velocity = new Vector3(0, velVert, 0);
             miAnimator.SetBool("Caminata", false);
         }
+
+        if(Input.GetButtonDown("Jump"))
+        {
+            print("se presiono salto");
+
+            miCuerpo.AddForce(new Vector3(0, fuerzaSalto, 0), ForceMode2D.Impulse);
+        }
+        miAnimator.SetFloat("Vel_Vertical", velVert);
+
     }
 }
