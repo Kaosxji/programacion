@@ -1,0 +1,7 @@
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\Constructores\Constructores\bin\Debug\Constructores.exe.config
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\Constructores\Constructores\bin\Debug\Constructores.exe
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\Constructores\Constructores\bin\Debug\Constructores.pdb
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\Constructores\Constructores\obj\Debug\Constructores.csproj.AssemblyReference.cache
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\Constructores\Constructores\obj\Debug\Constructores.csproj.CoreCompileInputs.cache
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\Constructores\Constructores\obj\Debug\Constructores.exe
+C:\Users\joshua.labastidaa\Documents\GitHub\programacion\Constructores\Constructores\obj\Debug\Constructores.pdb
