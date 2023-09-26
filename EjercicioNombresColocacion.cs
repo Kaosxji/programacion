@@ -62,7 +62,7 @@ namespace Ejemplos//Declaración de espacio de nombres Ejemplos
         //Declareacion de parametros "tipo", "cantidad " dentro de metodo RepararZapatos.
         public void RepararZapatos(string tipo, int cantidad)
         {
-            int precio = 50;//Uso Variable local "precio" dentro del metodo RepararZapatos.
+            int precio = 50;//decalarcion local "precio" dentro del metodo RepararZapatos.
             if (tipo == "tenis") //Declaracion de bloque condicional if. 
             {
                 precio = 100;//Uso de variable local "precio" dentro de bloque condiconal if.
@@ -117,61 +117,72 @@ namespace Ejemplos//Declaración de espacio de nombres Ejemplos
             Console.WriteLine($"La televisión de {Pulgadas} pulgadas, marca {Marca}, está encendida.");
         }
 
-        public void CambiarCanal(int canal)
+        public void Encender() //Declaración de método Encender dentro de classe Televisión
         {
-            for(int i = 1; i < canal; i++)
+            Encendida = true; //Declaración de varibable local dentro de método Encender
+            float consumoLuz = 0.05f; //Delcaración de variable local dentro de método Encender
+            Console.WriteLine($"La televisión de {Pulgadas} pulgadas, marca {Marca}, está encendida.");
+        }
+
+        public void CambiarCanal(int canal) //Declaración de Método CambiarCanal dentro de clase Televisión
+            //Declaración de parámetro canal dentro de método CambiarCanaal
+        {
+            for(int i = 1; i < canal; i++)//Ciclo for dentro de método CambiarCanal
             {
                 Console.WriteLine($"Cambiando a canal {i}.");
             }            
         }
 
-        public void AjustarVolumen(int nivel)
+        public void AjustarVolumen(int nivel) //Declaración de método AjustarVolumen dentro de clase Televisión
         {
-            if (nivel > 100)
+            if (nivel > 100)//Bloque condicional if dentro de método AjustarVolumen
             {
-                nivel = 0;
+                nivel = 0;//Declaración de variable locar nivel dentro de bloque condicional if
             }
             Console.WriteLine($"Ajustando el volumen a nivel {nivel}.");
         }
     }
 
-    class Guitarra
+    class Guitarra //Declaración de clase guitarra dentro de espacio de nombre Ejemplos
     {
-        public string Marca;
-        public string Tipo;
-        public int Cuerdas;
+        public string Marca; //Declaración de atributo Marca dentro de clase Guitarra
+        public string Tipo; //Declaración de atributo Tipo dentro de clase Guitarra
+        public int Cuerdas; //Declaración de atributo Cuerdas dentro de clase guitarra
 
-        public void TocarCuerda(int numeroCuerda)
+        public void TocarCuerda(int numeroCuerda) //Declaración de método TocarCuerda dentro de clase Guitarra
+            //Delcaración de parámetro numeroCuerda dentro de método TocarCuerda
         {
-            if(numeroCuerda == 6)
+            if(numeroCuerda == 6) //Bloque condicional if dentro de método TocarCuerda
             {
-                string nota = "Mi";
+                string nota = "Mi"; //Declaración de variable local nota dentro de bloque condicional if
             }
-            else if (numeroCuerda == 5)
+            else if (numeroCuerda == 5) //Bloque condicional else if dentro de método TocarCuerda
             {
-                string nota = "La";
+                string nota = "La"; //Declaracion de variable local nota dentro de bloque condicional else if
             }
             Console.WriteLine($"Tocando la cuerda {numeroCuerda} de la guitarra {Marca}.");
         }
 
-        public void AfinarGuitarra(bool afinada)
+        public void AfinarGuitarra(bool afinada) //Declaración de método AfinarGuitarra dentro de clase Guitarra
+        //Declaración de parámetro afinada dentro de método AfinarGuitarra
         {
-            if (afinada)
+            if (afinada) //Bloque condicional if dentro de método AfinarGuitarra
             {
                 Console.WriteLine($"La guitarra {Marca} está afinada.");
             }
-            else
+            else //Bloque condicional else dentro de método AfinarGuitarra
             {
-                for(int i = 0; i < 5; i++)
+                for(int i = 0; i < 5; i++) //Ciclo for dentro de bloque condicional else
                 {
                     Console.WriteLine($"Afinando la guitarra {Marca}.");
                 }                
             }
         }
 
-        public void CambiarTipo(string nuevoTipo)
+        public void CambiarTipo(string nuevoTipo) //Declaración de método CambiarTipo
+            //Declaraciòn de parámetro nuevoTipo
         {
-            Tipo = nuevoTipo;
+            Tipo = nuevoTipo; //Declaración de variable local nuevoTipo
             Console.WriteLine($"Cambiando el tipo de la guitarra a {nuevoTipo}.");
         }
     }

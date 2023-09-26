@@ -38,8 +38,20 @@ namespace Constructores
             float perimetro2 = trian2.calcPerimetro();
             Console.WriteLine("Perimetro " + perimetro2);
 
-            Circulo circ1 = new Circulo();
+            Circulo circulo1 = new Circulo();
+            circulo1.describir();
+            float peri1 = circulo1.calcPerimetro();
+            Console.WriteLine("perimetro = " + peri1);
 
+            Circulo circulo2 = new Circulo(50);
+            circulo2.describir();
+            float peri2 = circulo2.calcPerimetro();
+            Console.WriteLine("perimetro = " + peri2);
+
+            Producto Gansito = new Producto(50);
+            float total = Gansito.calcPrecio();
+            Console.WriteLine("Total a pagar =" + total);
+            
 
             Console.ReadLine();
         }
